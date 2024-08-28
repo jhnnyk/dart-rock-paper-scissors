@@ -1,3 +1,7 @@
+import 'dart:io';
+
 void main() {
-  print('hello world');
+  stdout.write('Rock, Paper or Scissors? (r/p/s) ');
+  final input = stdin.readLineSync();
+  print(input);
 }
